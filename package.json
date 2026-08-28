@@ -1,0 +1,21 @@
+{
+  "name": "crypto-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord yang menampilkan harga crypto dari CoinGecko secara real-time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "crypto", "coingecko", "price"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
